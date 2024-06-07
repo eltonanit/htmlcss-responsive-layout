@@ -5,7 +5,7 @@
 }
 body{
     font-family: "Roboto", sans-serif ;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .container{
@@ -35,34 +35,79 @@ main{padding-top: 80px;}
     margin: 10px;  
 
 }
+img {
+    max-width: 100%;
+   height: auto;
 
-
-.float-end{
-    float: right;
 }
+
+.col-33 i{
+    font-size: 95px;
+    color: #0084fd;
+    padding: 10px;
+    margin-bottom: 10px;    
+}
+p{ font-size: 16px;
+    line-height: 1.6;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+}
+.circle i {
+    font-size: 22px;
+}
+
 
 /*------------------------------------  COLUMN   */
 .col-100 {
     width: 100%;
 }
+.col-66{
+    width: 100%;
+}
+.col-60{
+        width: 100%;
+       }
 .col-50{
     width: 50%;
 
 }
-.col-66{
-    width: 100%;
-}
+.col-40{
+        width: 100%;
+    }
+
+
 .col-33 {
     width: 100%;
 }
-
-
+ 
 
 
 /*------------------------------------  UTILITIES   */
 
 .border-radius {
     border-radius: 25px;
+}
+.text-center{
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.float-end{
+    float: right;
+}
+
+.font-small {
+    font-size: 20px;
 }
 
 /*------------------------------------  COLORS   */
@@ -75,7 +120,7 @@ main{padding-top: 80px;}
 .bg-black {background-color: #333333 ;}
 
 .text-grey{
-    color: #738ca2;
+    color: #536472;
 }
 .text-black {
     color: #000000;
@@ -98,15 +143,38 @@ main{padding-top: 80px;}
 .p-20 {
     padding: 20px;
 }
+.my-20 {
+    margin: 20px 0;
+}
 
-h2
+.m-top{
+    margin-top: 20px;
 
+}
+.m-bottom-40{
+    margin-bottom: 40px;
 
-
+}
 /*------------------------------------  BUTTON   */
 .button{
-    
+    background-color: #0084fd;
+    width: auto;
+    padding: 15px 35px ;
+    border-style: none;
+    border-radius: 25px;
 }
 
 
-/*------------------------------------  LAYOUT   */
+/*------------------------------------  PROVE   */
+.button-0 {
+
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.col-66 img {
+
+    margin-top: 40px ;
+}
